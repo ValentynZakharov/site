@@ -5,10 +5,17 @@
     <title>blizardr</title>
 </head>
 <body style="background-color: rgba(14,58,174,0.93)">
-
-    <h1 style="color: chartreuse">hello</h1>
-        <p>сегодня мы проходим хтмл табл и все что успеем</p>
-            <table border="3" align="center" width="70%" bgcolor="aqua">
+<div class="block1">
+        <h1 style="color: chartreuse" align="center">hello</h1>
+        <hr>
+</div>
+    <div>
+        <p style="color: chartreuse" align="center">сегодня мы проходим хтмл табл и все что успеем</p>
+    </div>
+        <div>
+            <hr>
+            <h2 align="center" style="color: chartreuse">Какая-то таблица</h2>
+                    <table border="3" align="center" width="70%" bgcolor="aqua" cellpadding="5">
     <tr align="center">
         <th>Color</th>
         <th>bosh</th>
@@ -19,22 +26,94 @@
         <td>kill</td>
         <td>stun</td>
     </tr>
-    <tr align="center">
-        <td>yellow</td>
-        <td>death</td>
-        <td>anhor</td>
-    </tr>
-    <tr align="center">
-        <td>blue</td>
-        <td>hit</td>
-        <td>death hit</td>
-    </tr>
+        <tr align="center">
+                <td>yellow</td>
+                <td>death</td>
+                <td>anhor</td>
+        </tr>
+        <tr align="center">
+                <td>blue</td>
+                <td>hit</td>
+                 <td>death hit</td>
+        </tr>
                 <tr align="center">
                     <td>blue</td>
                     <td>hit</td>
                     <td>death hit</td>
                 </tr>
             </table>
+        </div>
+       <div align="center">
+    <a href="http://eu.blizzard.com/ru-ru/" target="_blank" style="color: chartreuse">перейтина сайт blizzard.com</a>
+       </div>
+<div>
+    <form action="index.html" method="post" autocomplete="on">
+        <input type="text" name="name" id="name" placeholder="Введите имя"><br>
+        <input type="password" name="pass" id="pass" placeholder="Введите пароль"><br>
+        <input type="email" name="email" placeholder="Введите адрес електронной почты"><br>
+        <input type="submit" name="submit" id="submit">
+        <input type="reset">
+        <p align="right"><button>НАЖМИ МЕНЯ</button></p>
+
+
+    </form>
+        <div>
+            <h2>проба Создать форму с флажками</h2>
+            <form action="gitap.php" method="post">
+                <div>
+                    <label><span>Имя клиента:</span>
+                        <input type="text" name="текст" placeholder="Введите имя">
+                    </label>
+                </div>
+                <div>
+                    <label> <span>Введите email</span>:
+                        <input type="email" name="email" placeholder="Введите email">
+                    </label>
+                </div>
+                <div>
+                    <label><span>Выбирите пол</span>
+                        <input type="radio" name="mela" value="male">M
+                        <input type="radio" name="mela" value="female">F
+                    </label>
+                </div>
+                <div>
+                    <label >
+                        <span>Дополнительные возможности</span>
+                        <input type="checkbox" name="extra" value="Admin"> Админ
+                        <input type="checkbox" name="extra" value="Support" checked> Тех. помощь
+                        <input type="checkbox" name="extra" value="Game master"> Получение ГМ
+                        <input type="checkbox" name="extra" value="VIP"> Полуцение VIP
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <span>Какойто тип</span>
+                        <select name="type">
+                            <option value="eshop">интернет-магазин</option>
+                            <option value="landing">лендинг</option>
+                            <option value="card">сйт визитка</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <span>Загрузите картинку</span>
+                        <input type="file" name="File">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <span>Комментарии</span>
+                        <textarea name="comment" cols="100" rows="10" maxlength="500"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <input type="reset" value="Сброс нахуй">
+                    <button name="submit">Загрузить</button>
+                </div>
+            </form>
+         </div>
+</div>
 </body>
 </html>
 
