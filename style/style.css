@@ -1,0 +1,25 @@
+.conteiner {
+    width: 1140px;
+    margin: 0 auto;
+}
+.block1 {
+    width: 864px;
+    margin: 0 auto;
+}
+p {
+    color: firebrick;
+    font-size: 25px;
+}
+h1 {
+    color: chartreuse;
+}
+.wrap {
+    color: chartreuse;
+}
+h2 {
+    color: deeppink;
+}
+.imagen {
+    width: 286px;
+    margin: 0 auto;
+}
